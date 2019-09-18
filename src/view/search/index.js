@@ -1,4 +1,4 @@
-import ('./SearchComponent');
+import './SearchComponent';
 import createComponent from '../../core/helpers/createComponent';
 import './search.css';
 
