@@ -1,0 +1,7 @@
+users-component {
+  display: flex;
+  padding: 15px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

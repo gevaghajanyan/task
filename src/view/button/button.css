@@ -1,0 +1,14 @@
+gf-button {
+  width: 70px;
+  padding: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
+  border-radius: 4px;
+
+}
+
+gf-button:hover {
+  background: #004b4b;
+}

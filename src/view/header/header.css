@@ -1,0 +1,15 @@
+header-component {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background: var(--main-bg-color);
+}
+
+header-component > gf-link:first-of-type::after {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 100%;
+  background-color: #000;
+}

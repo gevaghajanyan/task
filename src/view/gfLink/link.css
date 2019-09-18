@@ -1,0 +1,16 @@
+gf-link {
+  --active-color: #FFF;
+  --default-color: #000;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  color: var(--default-color);
+  cursor: pointer;
+}
+
+gf-link.active {
+  color: var(--active-color);
+}
