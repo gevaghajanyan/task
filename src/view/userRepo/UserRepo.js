@@ -14,7 +14,7 @@ class UserRepo extends GfComponent {
   render() {
     this.innerHTML = `
       <span>name: ${ this.name }</span>  
-      <span>language: ${ this.language }</span>  
+      <span>language: ${ this.language || 'N/A' }</span>  
     `
   }
 }
